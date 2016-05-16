@@ -1,49 +1,72 @@
-a {
-  color: red;
+/* Setting up our grid */
+.container {
+  width: 1400px; /*Set the width of the entire website here */
+  margin-right: auto;
+  margin-left: auto; /* Margin-left and right are set to auto to center the container */
 }
-ul li {
-  margin: 6px 0 6px 0;
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+  margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
 }
-p {
-/*espaço à volta*/
-  border: blue 1px solid ;
-  padding: 20px 0 20px 0;
-  background-color: red;
-  margin: 4px 0 4px 0;
+.eleven {
+  width: 91.5%;
+  float: left;
+  margin-left: 2%;
 }
-h1{
-  margin: 10px 0 15px 0;
-  }
-h2 {
-  margin: 10px 0 20px 0;
-  }
-h3 {
-  margin: 15px  15px 0;
-  border-bottom: 1px solid #CCCCCC;
-  padding-bottom: 3px;
+.ten {
+  width: 83%;
+  float: left;
+  margin-left: 2%;
 }
-.nav{
-  padding-left: 0px;
+.nine {
+  width: 74.5%;
+  float: left;
+  margin-left: 2%;
 }
-.nav a{
-  color: #0000af;
-  text-decoration: none;
+.eight {
+  width: 66%;
+  float: left;
+  margin-left: 2%;
 }
-.nav li{
-  display: inline;
+.seven {
+  width: 57.5%;
+  float: left;
+  margin-left: 2%;
 }
-.recipes {
-  list-style-type: none;
-  padding: 0;
+.six {
+  width: 49%; /* This div spans six columns (the entire row)*/
+  float: left;
+  margin-left: 2%;
 }
-.recipes li {
-  border: 1px solid #b56663;
-  padding-left: 15px;
+.five {
+  width: 40.5%; /* This div spans five columns */
+  margin-left: 2%;
+  float:left;
 }
-.recipes h3 {
-  border-bottom: 0;
+.four {
+  width: 32%;
+  float:left;
+  margin-left: 2%;
 }
-.recipes a {
-  color: #7facaa;
-  text-decoration: none;
+.three {
+  width: 23.5%;
+  float:left;
+  margin-left: 2%;
+}
+.two {
+  width: 15%;
+  float:left;
+  margin-left: 2%;
+
+}
+.one {
+  width: 6.5%;
+  float:left;
+  margin-left: 2%;
+}
+.row {
+  width: 100%;
+  clear: both; /* Clear creates new styles for the next row */
+  padding: 0px;
+  margin: 0px;
+  border: 2px;
 }
